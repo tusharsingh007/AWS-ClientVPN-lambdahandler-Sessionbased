@@ -4,7 +4,7 @@ This solution automates the management of AWS Client VPN sessions by terminating
 In environments where security and resource optimization are critical, managing VPN session durations is essential. This solution is ideal for organizations that need to enforce session timeouts for compliance or to prevent long-standing idle connections. For example, in a corporate setting where sensitive data is accessed via AWS Client VPN, automatically terminating sessions after a specified time helps mitigate risks of unauthorized access, reduces the attack surface, and ensures that resources are not unnecessarily consumed by inactive connections. This is particularly useful for IT administrators aiming to enhance security while minimizing manual intervention.
 ## Architecture
 
-![Architecture diagram](./ClientVPN(time).png)
+![Architecture diagram](./ClientVPN(usertime).png)
 ## References
 
 1.  [https://aws.amazon.com/blogs/networking-and-content-delivery/enforcing-vpn-access-policies-with-aws-client-vpn-connection-handler/](https://aws.amazon.com/blogs/networking-and-content-delivery/enforcing-vpn-access-policies-with-aws-client-vpn-connection-handler/)
